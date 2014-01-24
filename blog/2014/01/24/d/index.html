@@ -121,6 +121,33 @@ b. xcode中安装command line tool</p>
 
 
 <p>原因:完全按照提示就可以完成</p>
+
+<p>3.rake deploy rejected 问题</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>! [rejected]        master -> master (non-fast-forward)
+</span><span class='line'>    error: failed to push some refs to 'git@github.com:xialina/xialina.github.com.git'
+</span><span class='line'>    hint: Updates were rejected because the tip of your current branch is behind
+</span><span class='line'>    hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+</span><span class='line'>    hint: before pushing again.
+</span><span class='line'>    hint: See the 'Note about fast-forwards' in 'git push --help' for details.</span></code></pre></td></tr></table></div></figure>
+
+
+<p>解决方法：把github中master分支删除。（但git pull的时候出现问题</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Your configuration specifies to merge with the ref 'master'
+</span><span class='line'> from the remote, but no such ref was fetched.</span></code></pre></td></tr></table></div></figure>
+
+
+<p>）
+参考链接 :<a href="http://wwssllabcd.github.io/blog/2012/08/01/how-to-install-octopress-on-window/">http://wwssllabcd.github.io/blog/2012/08/01/how-to-install-octopress-on-window/</a></p>
 </div>
 
 
