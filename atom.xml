@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[xialina]]></title>
+  <link href="http://xialina.github.io/atom.xml" rel="self"/>
+  <link href="http://xialina.github.io/"/>
+  <updated>2014-01-24T15:44:05+08:00</updated>
+  <id>http://xialina.github.io/</id>
+  <author>
+    <name><![CDATA[xialina]]></name>
+    <email><![CDATA[xialina.love@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress 一点也不轻松]]></title>
+    <link href="http://xialina.github.io/blog/2014/01/24/d/"/>
+    <updated>2014-01-24T13:43:26+08:00</updated>
+    <id>http://xialina.github.io/blog/2014/01/24/d</id>
+    <content type="html"><![CDATA[<p>初次体验
+安装过程中碰到各种各样problems:
+1:ruby 版本不对，ruby默认版本1.8.7,为了升级为1.9.3，各种折腾</p>
+
+<p>a.（一定要VPN，否则再怎么折腾也是白折腾）
+b. xcode中安装command line tool</p>
+
+<p>2.git push问题</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>xialn:octopress cityhouse$ git status
+</span><span class='line'># On branch source
+</span><span class='line'># Your branch is ahead of 'origin/master' by 781 commits.
+</span><span class='line'>#   (use "git push" to publish your local commits)
+</span><span class='line'>#</span></code></pre></td></tr></table></div></figure>
+
+
+<p>原因:完全按照提示就可以完成</p>
+
+<p>3.rake deploy rejected 问题</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>! [rejected]        master -> master (non-fast-forward)
+</span><span class='line'>    error: failed to push some refs to 'git@github.com:xialina/xialina.github.com.git'
+</span><span class='line'>    hint: Updates were rejected because the tip of your current branch is behind
+</span><span class='line'>    hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+</span><span class='line'>    hint: before pushing again.
+</span><span class='line'>    hint: See the 'Note about fast-forwards' in 'git push --help' for details.</span></code></pre></td></tr></table></div></figure>
+
+
+<p>解决方法：把github中master分支删除。（但git pull的时候出现问题</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Your configuration specifies to merge with the ref 'master'
+</span><span class='line'> from the remote, but no such ref was fetched.</span></code></pre></td></tr></table></div></figure>
+
+
+<p>）
+参考链接 :<a href="http://wwssllabcd.github.io/blog/2012/08/01/how-to-install-octopress-on-window/">http://wwssllabcd.github.io/blog/2012/08/01/how-to-install-octopress-on-window/</a></p>
+]]></content>
+  </entry>
+  
+</feed>
