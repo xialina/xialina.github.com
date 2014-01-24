@@ -7,35 +7,38 @@ categories:
 ---
 初次体验
 安装过程中碰到各种各样problems:
-1:ruby 版本不对，ruby默认版本1.8.7,为了升级为1.9.3，各种折腾
+##1:ruby 版本不对
+ruby默认版本1.8.7,为了升级为1.9.3，各种折腾
 
-a.（一定要VPN，否则再怎么折腾也是白折腾）
-b. xcode中安装command line tool
+    a.（一定要VPN，否则再怎么折腾也是白折腾)
 
-2.git push问题
+    b. xcode中安装command line tool
+
+##2.git push问题
 {% codeblock %}
 xialn:octopress cityhouse$ git status
-# On branch source
-# Your branch is ahead of 'origin/master' by 781 commits.
-#   (use "git push" to publish your local commits)
-#
+ On branch source
+ Your branch is ahead of 'origin/master' by 781 commits.
+ (use "git push" to publish your local commits)
 {% endcodeblock %}
-原因:完全按照提示就可以完成
+原因:**完全按照提示就可以完成**
 
-3.rake deploy rejected 问题
+##3.rake deploy rejected 问题
 {% codeblock %}
 ! [rejected]        master -> master (non-fast-forward)
-    error: failed to push some refs to 'git@github.com:xialina/xialina.github.com.git'
-    hint: Updates were rejected because the tip of your current branch is behind
-    hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
-    hint: before pushing again.
-    hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+        error: failed to push some refs to 'git@github.com:xialina/xialina.github.com.git'
+        hint: Updates were rejected because the tip of your current branch is behind
+        hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+        hint: before pushing again.
+        hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 {% endcodeblock %}
 
-解决方法：把github中master分支删除。（但git pull的时候出现问题
+解决方法：把github中master分支删除。（但git pull的时候出现问题)
  {% codeblock %}
- Your configuration specifies to merge with the ref 'master'
- from the remote, but no such ref was fetched.
-{% endcodeblock %}）
-参考链接 :http://wwssllabcd.github.io/blog/2012/08/01/how-to-install-octopress-on-window/
+    Your configuration specifies to merge with the ref 'master'
+    from the remote, but no such ref was fetched.
+{% endcodeblock %}
 
+    参考链接:
+        <http://wwssllabcd.github.io/blog/2012/08/01/how-to-install-octopress-on-window/>
+        <http://bbs.weiphone.com/read-htm-tid-6663858.html>
