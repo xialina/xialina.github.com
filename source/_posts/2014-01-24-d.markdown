@@ -1,0 +1,7 @@
+---
+layout: post
+title: "octopress 一点也不轻松"
+date: 2014-01-24 13:43:26 +0800
+comments: true
+categories: 
+---
