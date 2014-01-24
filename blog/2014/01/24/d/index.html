@@ -10,14 +10,11 @@
 
   
   <meta name="description" content="初次体验
-安装过程中碰到各种各样problems:
-1:ruby 版本不对，ruby默认版本1.8.7,为了升级为1.9.3，各种折腾 a.（一定要VPN，否则再怎么折腾也是白折腾）
-b. xcode中安装command line tool 2.git push问题 1
+安装过程中碰到各种各样problems: 1:ruby 版本不对 ruby默认版本1.8.7,为了升级为1.9.3，各种折腾 a.（一定要VPN，否则再怎么折腾也是白折腾) b. xcode中安装command line tool 2.git push问题 1
 2
 3
 4
-5
-xialn &hellip;">
+xialn: &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -100,29 +97,32 @@ xialn &hellip;">
 
 
 <div class="entry-content"><p>初次体验
-安装过程中碰到各种各样problems:
-1:ruby 版本不对，ruby默认版本1.8.7,为了升级为1.9.3，各种折腾</p>
+安装过程中碰到各种各样problems:</p>
 
-<p>a.（一定要VPN，否则再怎么折腾也是白折腾）
-b. xcode中安装command line tool</p>
+<h2>1:ruby 版本不对</h2>
 
-<p>2.git push问题</p>
+<p>ruby默认版本1.8.7,为了升级为1.9.3，各种折腾</p>
+
+<pre><code>a.（一定要VPN，否则再怎么折腾也是白折腾)
+
+b. xcode中安装command line tool
+</code></pre>
+
+<h2>2.git push问题</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
-<span class='line-number'>5</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>xialn:octopress cityhouse$ git status
-</span><span class='line'># On branch source
-</span><span class='line'># Your branch is ahead of 'origin/master' by 781 commits.
-</span><span class='line'>#   (use "git push" to publish your local commits)
-</span><span class='line'>#</span></code></pre></td></tr></table></div></figure>
+</span><span class='line'> On branch source
+</span><span class='line'> Your branch is ahead of 'origin/master' by 781 commits.
+</span><span class='line'> (use "git push" to publish your local commits)</span></code></pre></td></tr></table></div></figure>
 
 
-<p>原因:完全按照提示就可以完成</p>
+<p>原因:<strong>完全按照提示就可以完成</strong></p>
 
-<p>3.rake deploy rejected 问题</p>
+<h2>3.rake deploy rejected 问题</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -131,23 +131,25 @@ b. xcode中安装command line tool</p>
 <span class='line-number'>5</span>
 <span class='line-number'>6</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>! [rejected]        master -> master (non-fast-forward)
-</span><span class='line'>    error: failed to push some refs to 'git@github.com:xialina/xialina.github.com.git'
-</span><span class='line'>    hint: Updates were rejected because the tip of your current branch is behind
-</span><span class='line'>    hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
-</span><span class='line'>    hint: before pushing again.
-</span><span class='line'>    hint: See the 'Note about fast-forwards' in 'git push --help' for details.</span></code></pre></td></tr></table></div></figure>
+</span><span class='line'>        error: failed to push some refs to 'git@github.com:xialina/xialina.github.com.git'
+</span><span class='line'>        hint: Updates were rejected because the tip of your current branch is behind
+</span><span class='line'>        hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+</span><span class='line'>        hint: before pushing again.
+</span><span class='line'>        hint: See the 'Note about fast-forwards' in 'git push --help' for details.</span></code></pre></td></tr></table></div></figure>
 
 
-<p>解决方法：把github中master分支删除。（但git pull的时候出现问题</p>
+<p>解决方法：把github中master分支删除。（但git pull的时候出现问题)</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>Your configuration specifies to merge with the ref 'master'
-</span><span class='line'> from the remote, but no such ref was fetched.</span></code></pre></td></tr></table></div></figure>
+</span><span class='line'>    from the remote, but no such ref was fetched.</span></code></pre></td></tr></table></div></figure>
 
 
-<p>）
-参考链接 :<a href="http://wwssllabcd.github.io/blog/2012/08/01/how-to-install-octopress-on-window/">http://wwssllabcd.github.io/blog/2012/08/01/how-to-install-octopress-on-window/</a></p>
+<pre><code>参考链接:
+    &lt;http://wwssllabcd.github.io/blog/2012/08/01/how-to-install-octopress-on-window/&gt;
+    &lt;http://bbs.weiphone.com/read-htm-tid-6663858.html&gt;
+</code></pre>
 </div>
 
 
