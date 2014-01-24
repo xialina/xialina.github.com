@@ -4,7 +4,7 @@
   <title><![CDATA[xialina]]></title>
   <link href="http://xialina.github.io/atom.xml" rel="self"/>
   <link href="http://xialina.github.io/"/>
-  <updated>2014-01-24T16:36:25+08:00</updated>
+  <updated>2014-01-24T16:42:08+08:00</updated>
   <id>http://xialina.github.io/</id>
   <author>
     <name><![CDATA[xialina]]></name>
@@ -75,6 +75,18 @@ b. xcode中安装command line tool
 <span class='line-number'>2</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>Your configuration specifies to merge with the ref 'master'
 </span><span class='line'>    from the remote, but no such ref was fetched.</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>添加评论</h2>
+
+<p>修改_config.yml内容</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>disqus Comments
+</span><span class='line'>disqus_short_name:baham
+</span><span class='line'>disqus_show_comment_count:false</span></code></pre></td></tr></table></div></figure>
 
 
 <pre><code>参考链接:
