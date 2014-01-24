@@ -4,7 +4,7 @@
   <title><![CDATA[xialina]]></title>
   <link href="http://xialina.github.io/atom.xml" rel="self"/>
   <link href="http://xialina.github.io/"/>
-  <updated>2014-01-24T16:17:38+08:00</updated>
+  <updated>2014-01-24T16:21:39+08:00</updated>
   <id>http://xialina.github.io/</id>
   <author>
     <name><![CDATA[xialina]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[周末愉快]]></title>
+    <link href="http://xialina.github.io/blog/2014/01/24/zhou-mo-yu-kuai/"/>
+    <updated>2014-01-24T16:21:29+08:00</updated>
+    <id>http://xialina.github.io/blog/2014/01/24/zhou-mo-yu-kuai</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress 一点也不轻松]]></title>
