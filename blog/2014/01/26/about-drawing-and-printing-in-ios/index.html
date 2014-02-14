@@ -5,15 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - xialina</title>
+  <title>About Drawing and Printing in iOS - xialina</title>
   <meta name="author" content="xialina">
 
   
-  <meta name="description" content="Blog Archive 2014 初识PhoneGap
-Jan 28 2014 About Drawing and Printing in iOS
-Jan 26 2014 周末愉快
-Jan 24 2014 Octopress 一点也不轻松
-Jan 24 2014 Recent Posts &hellip;">
+  <meta name="description" content="At A Glance iOS原生的绘画系统包括三个主要的技术：UIKit, Core Graphics, Core Animation。UIKit提供views和在views中high-level绘画方法， Core Graphics提供在UIKit views中补充的（lower-level） &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -22,7 +18,7 @@ Jan 24 2014 Recent Posts &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://xialina.github.io/blog/archives">
+  <link rel="canonical" href="http://xialina.github.io/blog/2014/01/26/about-drawing-and-printing-in-ios">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="xialina" type="application/atom+xml">
@@ -68,62 +64,123 @@ Jan 24 2014 Recent Posts &hellip;">
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">About Drawing and Printing in iOS</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-26T14:50:18+08:00" pubdate data-updated="true">Jan 26<span>th</span>, 2014</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives">
 
 
+<div class="entry-content"><h1>At A Glance</h1>
 
-  
-  <h2>2014</h2>
+<pre><code>iOS原生的绘画系统包括三个主要的技术：UIKit, Core Graphics, Core Animation。UIKit提供views和在views中high-level绘画方法，
+</code></pre>
 
-<article>
-  
-<h1><a href="/blog/2014/01/28/chu-shi-phonegap/">初识PhoneGap</a></h1>
-<time datetime="2014-01-28T16:18:45+08:00" pubdate><span class='month'>Jan</span> <span class='day'>28</span> <span class='year'>2014</span></time>
+<p>Core Graphics提供在UIKit views中补充的（lower-level）绘画支持, Core Animation 提供UIKit view转化(transformations)和动画(animation)的能力。
+Core Animations也负责view的组成。</p>
 
+<h2>Custom UI Views Allow Greater Drawing Flexibilty</h2>
 
-</article>
+<pre><code>这个文档描述怎样通过原生绘画技术自定义UI, 这些技术（Core Graphics和UIKit frameworks)支持2D绘制。
+</code></pre>
 
+<h1>Drawing with Quartz and UIKit</h1>
 
+<pre><code>Quartz 是ios中原生绘画技术的名字。The Core Graphics framework是Quartz的核心，
+</code></pre>
 
-<article>
-  
-<h1><a href="/blog/2014/01/26/about-drawing-and-printing-in-ios/">About Drawing and Printing in iOS</a></h1>
-<time datetime="2014-01-26T14:50:18+08:00" pubdate><span class='month'>Jan</span> <span class='day'>26</span> <span class='year'>2014</span></time>
+<p>是绘画内容的主要接口。提供以下绘画内容和功能：</p>
 
+<p>＊Graphics contexts</p>
 
-</article>
+<p>*Paths</p>
 
+<p>*Images and bitmaps</p>
 
+<p>*Transparentcy layers</p>
 
-<article>
-  
-<h1><a href="/blog/2014/01/24/zhou-mo-yu-kuai/">周末愉快</a></h1>
-<time datetime="2014-01-24T16:21:29+08:00" pubdate><span class='month'>Jan</span> <span class='day'>24</span> <span class='year'>2014</span></time>
+<p>*Colors, pattern colors, and color spaces</p>
 
+<p>*Gradients and shadings</p>
 
-</article>
+<p>*Fonts</p>
 
+<p>*PDF content</p>
 
+<h2>Configuring the Graphics Context</h2>
 
-<article>
-  
-<h1><a href="/blog/2014/01/24/d/">Octopress 一点也不轻松</a></h1>
-<time datetime="2014-01-24T13:43:26+08:00" pubdate><span class='month'>Jan</span> <span class='day'>24</span> <span class='year'>2014</span></time>
-
-
-</article>
-
+<h2>Creating and Drawing Paths</h2>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">xialina</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-26T14:50:18+08:00" pubdate data-updated="true">Jan 26<span>th</span>, 2014</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/01/24/zhou-mo-yu-kuai/" title="Previous Post: 周末愉快">&laquo; 周末愉快</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/01/28/chu-shi-phonegap/" title="Next Post: 初识PhoneGap">初识PhoneGap &raquo;</a>
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -174,7 +231,10 @@ Jan 24 2014 Recent Posts &hellip;">
       var disqus_shortname = 'xialina';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://xialina.github.io/blog/2014/01/26/about-drawing-and-printing-in-ios/';
+        var disqus_url = 'http://xialina.github.io/blog/2014/01/26/about-drawing-and-printing-in-ios/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

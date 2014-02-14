@@ -4,7 +4,7 @@
   <title><![CDATA[xialina]]></title>
   <link href="http://xialina.github.io/atom.xml" rel="self"/>
   <link href="http://xialina.github.io/"/>
-  <updated>2014-01-24T16:46:25+08:00</updated>
+  <updated>2014-02-14T14:26:30+08:00</updated>
   <id>http://xialina.github.io/</id>
   <author>
     <name><![CDATA[xialina]]></name>
@@ -12,6 +12,74 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[初识PhoneGap]]></title>
+    <link href="http://xialina.github.io/blog/2014/01/28/chu-shi-phonegap/"/>
+    <updated>2014-01-28T16:18:45+08:00</updated>
+    <id>http://xialina.github.io/blog/2014/01/28/chu-shi-phonegap</id>
+    <content type="html"><![CDATA[<p>参考文章：</p>
+
+<p>   <a href="http://www.360doc.com/content/13/1115/08/9200790_329325455.shtml">http://www.360doc.com/content/13/1115/08/9200790_329325455.shtml</a>
+<a href="http://blog.devtang.com/blog/2012/03/24/talk-about-uiwebview-and-phonegap">http://blog.devtang.com/blog/2012/03/24/talk-about-uiwebview-and-phonegap</a>
+   <a href="http://phonegap.com/install">http://phonegap.com/install</a></p>
+
+<h1>安装NodeJS(<a href="http://nodejs.org">http://nodejs.org</a>)</h1>
+
+<h1>安装PhoneGap(<a href="http://phonegap.com/install/">http://phonegap.com/install/</a>)</h1>
+
+<p>&lt;% codeblock %>
+ termine 输入命令 sudo npm install -g phonegap
+&lt;% endcodeblock %></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[About Drawing and Printing in iOS]]></title>
+    <link href="http://xialina.github.io/blog/2014/01/26/about-drawing-and-printing-in-ios/"/>
+    <updated>2014-01-26T14:50:18+08:00</updated>
+    <id>http://xialina.github.io/blog/2014/01/26/about-drawing-and-printing-in-ios</id>
+    <content type="html"><![CDATA[<h1>At A Glance</h1>
+
+<pre><code>iOS原生的绘画系统包括三个主要的技术：UIKit, Core Graphics, Core Animation。UIKit提供views和在views中high-level绘画方法，
+</code></pre>
+
+<p>Core Graphics提供在UIKit views中补充的（lower-level）绘画支持, Core Animation 提供UIKit view转化(transformations)和动画(animation)的能力。
+Core Animations也负责view的组成。</p>
+
+<h2>Custom UI Views Allow Greater Drawing Flexibilty</h2>
+
+<pre><code>这个文档描述怎样通过原生绘画技术自定义UI, 这些技术（Core Graphics和UIKit frameworks)支持2D绘制。
+</code></pre>
+
+<h1>Drawing with Quartz and UIKit</h1>
+
+<pre><code>Quartz 是ios中原生绘画技术的名字。The Core Graphics framework是Quartz的核心，
+</code></pre>
+
+<p>是绘画内容的主要接口。提供以下绘画内容和功能：</p>
+
+<p>＊Graphics contexts</p>
+
+<p>*Paths</p>
+
+<p>*Images and bitmaps</p>
+
+<p>*Transparentcy layers</p>
+
+<p>*Colors, pattern colors, and color spaces</p>
+
+<p>*Gradients and shadings</p>
+
+<p>*Fonts</p>
+
+<p>*PDF content</p>
+
+<h2>Configuring the Graphics Context</h2>
+
+<h2>Creating and Drawing Paths</h2>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[周末愉快]]></title>
